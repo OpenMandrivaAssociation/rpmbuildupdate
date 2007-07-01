@@ -1,5 +1,5 @@
 %define name	rpmbuildupdate
-%define version	0.8.0
+%define version	0.8.1
 %define release %mkrel 1
 
 Name:		%{name}
@@ -9,7 +9,7 @@ Summary:	Helps you build up to date RPMs
 License:	GPL
 Group:		Development/Other
 URL:		http://wiki.mandriva.com/en/Development/Packaging/Tools/rpmbuildupdate
-Source0:	%{name}-%{version}.tar.bz2
+Source0:	%{name}-%{version}.tar.gz
 Conflicts:	rpm-rebuilder <= 0.25-1mdk
 BuildArch:	noarch
 Buildroot:	%{_tmppath}/%{name}-%{version}
