@@ -1,6 +1,6 @@
 %define name	rpmbuildupdate
 %define version	0.8.1
-%define release %mkrel 4
+%define release 5
 
 Name:		%{name}
 Version:	%{version}
