@@ -8,7 +8,7 @@ Release:	%{release}
 Summary:	Helps you build up to date RPMs
 License:	GPL
 Group:		Development/Other
-URL:		http://wiki.mandriva.com/en/Development/Packaging/Tools/rpmbuildupdate
+URL:		https://wiki.mandriva.com/en/Development/Packaging/Tools/rpmbuildupdate
 Source0:	%{name}-%{version}.tar.gz
 Conflicts:	rpm-rebuilder <= 0.25-1mdk
 BuildArch:	noarch
