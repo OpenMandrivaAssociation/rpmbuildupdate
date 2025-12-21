@@ -14,6 +14,11 @@ Conflicts:	rpm-rebuilder <= 0.25-1mdk
 BuildArch:	noarch
 Buildroot:	%{_tmppath}/%{name}-%{version}
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 rpmbuildupdate helps you build up to date RPMs. It download source tarball 
 and update the spec files. It can also be used to rebuild and apply scripted
